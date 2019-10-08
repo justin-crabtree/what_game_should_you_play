@@ -1,0 +1,5 @@
+{
+  id: favorite.id, 
+  user_id: favorite.user_id, 
+  game_id: favorite.game_id
+}

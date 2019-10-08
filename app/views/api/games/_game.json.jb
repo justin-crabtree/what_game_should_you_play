@@ -1,0 +1,7 @@
+{
+  id: game.id, 
+  title: game.title, 
+  summary: game.summary, 
+  image_url: game.image_url, 
+  video_url: game.video_url, 
+}

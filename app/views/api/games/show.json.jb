@@ -1,0 +1,7 @@
+game = render partial: "game.json.jb", locals: {game: @game}
+
+game[:game_tags] = {
+  tags: @game.tags
+}
+
+game
