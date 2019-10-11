@@ -1,11 +1,3 @@
 favorite = render partial: "favorite.json.jb", locals: {favorite: @favorite}
 
-favorite[:game] = {
-  id: @favorite.game.id, 
-  title: @favorite.game.title, 
-  summary: @favorite.game.summary, 
-  image_url: @favorite.game.image_url, 
-  video_url: @favorite.game.video_url
-}
-
 favorite

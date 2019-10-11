@@ -1,7 +1,9 @@
 game = render partial: "game.json.jb", locals: {game: @game}
 
-game[:game_tags] = {
-  tags: @game.tags
-}
+game[:tags] = @game.tags.map do |tag| 
+  render partial: "api/tags/tag", locals: { tag: tag }
+end
+
+# Key user_favorite performs check, returns true/false
 
 game

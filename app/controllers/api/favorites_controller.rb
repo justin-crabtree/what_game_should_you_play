@@ -8,6 +8,8 @@ class Api::FavoritesController < ApplicationController
     )
     if @favorite.save
       render 'show.json.jb'
+    else
+      render json: {errors: @favorite.errors.full_messages}, status: 422
     end
   end
 
