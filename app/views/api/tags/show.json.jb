@@ -1,9 +1,7 @@
 tag = render partial: "tag.json.jb", locals: {tag: @tag}
 
-# tag[:games] = {
-#   games: @tag.games
-# }
-
-tag[:games] = @tag.games
+tag[:games] = @tag.games.map do |game| 
+  render partial: "api/games/game", locals: { game: game }
+end
 
 tag

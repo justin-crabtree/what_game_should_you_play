@@ -11,7 +11,6 @@ Rails.application.routes.draw do
     get "/tags/:id" => "tags#show"
 
     post "/users" => "users#create"
-    post "/users:id" => "users#show"
     get "/users/:id" =>"users#show"
     patch "/users/:id" => "users#update"
     delete "users/:id" => "users#destroy"
