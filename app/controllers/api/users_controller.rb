@@ -22,19 +22,27 @@ class Api::UsersController < ApplicationController
 
   def update
     @user = User.find_by(id: params[:id])
-    @user.name = params[:name] || @user.name
-    @user.email = params[:email] || @user.email
-
-    if @user.save
-      render 'show.json.jb'
+    if @user == current_user
+      @user.name = params[:name] || @user.name 
+      @user.email = params[:email] || @user.email
+      @user.password = params[:password] || @user.password_digest
+      if @user.save
+        render 'show.json.jb'
+      else
+        render json: {errors: @user.errors.full_messages}, status: 422
+      end
     else
-      render json: {errors: @user.errors.full_messages}, status: 422
+      render json: {error: "You must be the user to update profile"}
     end
   end
 
   def destroy
-    user = User.find_by(id: params[:id])
-    user.destroy
-    render json: {message: "User successfully deleted"}
+    @user = User.find_by(id: params[:id])
+    if @user == current_user
+      @user.destroy
+      render json: {message: "User successfully deleted"}
+    else
+      render json: {error: "You must be the user to delete profile"}
+    end
   end
 end
