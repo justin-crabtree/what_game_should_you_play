@@ -4,6 +4,10 @@ game[:tags] = @game.tags.map do |tag|
   render partial: "api/tags/tag", locals: { tag: tag }
 end
 
+if current_user
+  game[:favorite] = current_user.games.include?(@game)
+end
+
 # Key user_favorite performs check, returns true/false
 
 game
