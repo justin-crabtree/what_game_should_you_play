@@ -1,25 +1,10 @@
 class Api::QuestionnairesController < ApplicationController
 
-  def create
-    @questionnaire = Questionnaire.new(
-      checkedThemes: params[:checkedThemes],
-      experienceLevel: params[:experienceLevel],
-      gameLength: params[:gameLength],
-      replayability: params[:replayability],
-      gameFocus: params[:gameFocus],
-      playerAmount: params[:playerAmount],
-      platforms: params[:platforms],
-      checkedGenres: params[:checkedGenres],
-      rating: params[:rating]
-    )
-    if @questionnaire.save
-      render 'show.json.jb'
-    else
-      render json: {errors: questionnaire.errors.full_messages}, status: :bad_request
-    end
-  end
+  # figure out logic to take in different tags and display a game with those combonations of tags
+  # make function for each question? so only a function is responsible for a certain group of tags?
 
-  def index
+  def create
     render 'index.json.jb'
   end
+  
 end
