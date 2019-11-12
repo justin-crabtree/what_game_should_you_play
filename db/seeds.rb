@@ -1,589 +1,200 @@
-
-GameTag.create!([
-  {game_id: 151, tag_id: 9},
-  {game_id: 151, tag_id: 11},
-  {game_id: 151, tag_id: 14},
-  {game_id: 151, tag_id: 16},
-  {game_id: 151, tag_id: 19},
-  {game_id: 151, tag_id: 27},
-  {game_id: 151, tag_id: 29},
-  {game_id: 151, tag_id: 37},
-  {game_id: 151, tag_id: 41},
-  {game_id: 151, tag_id: 44},
-
-  {game_id: 152, tag_id: 10},
-  {game_id: 152, tag_id: 12},
-  {game_id: 152, tag_id: 15},
-  {game_id: 152, tag_id: 17},
-  {game_id: 152, tag_id: 18},
-  {game_id: 152, tag_id: 19},
-  {game_id: 152, tag_id: 20},
-  {game_id: 152, tag_id: 25},
-  {game_id: 152, tag_id: 29},
-  {game_id: 152, tag_id: 42},
-  {game_id: 152, tag_id: 43},
-  {game_id: 152, tag_id: 26},
-
-  {game_id: 153, tag_id: 9},
-  {game_id: 153, tag_id: 11},
-  {game_id: 153, tag_id: 15},
-  {game_id: 153, tag_id: 17},
-  {game_id: 153, tag_id: 18},
-  {game_id: 153, tag_id: 19},
-  {game_id: 153, tag_id: 20},
-  {game_id: 153, tag_id: 22},
-  {game_id: 153, tag_id: 24},
-  {game_id: 153, tag_id: 25},
-  {game_id: 153, tag_id: 31},
-  {game_id: 153, tag_id: 40},
-  {game_id: 153, tag_id: 32},
-  {game_id: 153, tag_id: 44},
-
-  {game_id: 154, tag_id: 9},
-  {game_id: 154, tag_id: 13},
-  {game_id: 154, tag_id: 14},
-  {game_id: 154, tag_id: 16},
-  {game_id: 154, tag_id: 17},
-  {game_id: 154, tag_id: 18},
-  {game_id: 154, tag_id: 19},
-  {game_id: 154, tag_id: 20},
-  {game_id: 154, tag_id: 21},
-  {game_id: 154, tag_id: 22},
-  {game_id: 154, tag_id: 26},
-  {game_id: 154, tag_id: 30},
-  {game_id: 154, tag_id: 31},
-  {game_id: 154, tag_id: 40},
-  {game_id: 154, tag_id: 44},
-
-  {game_id: 155, tag_id: 9},
-  {game_id: 155, tag_id: 13},
-  {game_id: 155, tag_id: 15},
-  {game_id: 155, tag_id: 17},
-  {game_id: 155, tag_id: 19},
-  {game_id: 155, tag_id: 22},
-  {game_id: 155, tag_id: 30},
-  {game_id: 155, tag_id: 39},
-  {game_id: 155, tag_id: 40},
-  {game_id: 155, tag_id: 43},
-
-  {game_id: 156, tag_id: 9},
-  {game_id: 156, tag_id: 12},
-  {game_id: 156, tag_id: 14},
-  {game_id: 156, tag_id: 16},
-  {game_id: 156, tag_id: 17},
-  {game_id: 156, tag_id: 18},
-  {game_id: 156, tag_id: 19},
-  {game_id: 156, tag_id: 23},
-  {game_id: 156, tag_id: 28},
-  {game_id: 156, tag_id: 29},
-  {game_id: 156, tag_id: 32},
-  {game_id: 156, tag_id: 39},
-  {game_id: 156, tag_id: 41},
-  {game_id: 156, tag_id: 44},
-
-  {game_id: 157, tag_id: 10},
-  {game_id: 157, tag_id: 13},
-  {game_id: 157, tag_id: 14},
-  {game_id: 157, tag_id: 16},
-  {game_id: 157, tag_id: 17},
-  {game_id: 157, tag_id: 18},
-  {game_id: 157, tag_id: 19},
-  {game_id: 157, tag_id: 20},
-  {game_id: 157, tag_id: 21},
-  {game_id: 157, tag_id: 23},
-  {game_id: 157, tag_id: 28},
-  {game_id: 157, tag_id: 29},
-  {game_id: 157, tag_id: 30},
-  {game_id: 157, tag_id: 39},
-  {game_id: 157, tag_id: 42},
-  {game_id: 157, tag_id: 44},
-
-  {game_id: 159, tag_id: 9},
-  {game_id: 159, tag_id: 13},
-  {game_id: 159, tag_id: 15},
-  {game_id: 159, tag_id: 17},
-  {game_id: 159, tag_id: 18},
-  {game_id: 159, tag_id: 19},
-  {game_id: 159, tag_id: 21},
-  {game_id: 159, tag_id: 23},
-  {game_id: 159, tag_id: 24},
-  {game_id: 159, tag_id: 30},
-  {game_id: 159, tag_id: 37},
-  {game_id: 159, tag_id: 41},
-  {game_id: 159, tag_id: 43},
-
-  {game_id: 160, tag_id: 10},
-  {game_id: 160, tag_id: 11},
-  {game_id: 160, tag_id: 14},
-  {game_id: 160, tag_id: 16},
-  {game_id: 160, tag_id: 19},
-  {game_id: 160, tag_id: 32},
-  {game_id: 160, tag_id: 33},
-  {game_id: 160, tag_id: 40},
-  {game_id: 160, tag_id: 44},
-
-  {game_id: 161, tag_id: 10},
-  {game_id: 161, tag_id: 11},
-  {game_id: 161, tag_id: 13},
-  {game_id: 161, tag_id: 16},
-  {game_id: 161, tag_id: 18},
-  {game_id: 161, tag_id: 19},
-  {game_id: 161, tag_id: 20},
-  {game_id: 161, tag_id: 21},
-  {game_id: 161, tag_id: 32},
-  {game_id: 161, tag_id: 33},
-  {game_id: 161, tag_id: 40},
-  {game_id: 161, tag_id: 44},
-
-  {game_id: 162, tag_id: 9},
-  {game_id: 162, tag_id: 12},
-  {game_id: 162, tag_id: 15},
-  {game_id: 162, tag_id: 17},
-  {game_id: 162, tag_id: 18},
-  {game_id: 162, tag_id: 22},
-  {game_id: 162, tag_id: 24},
-  {game_id: 162, tag_id: 25},
-  {game_id: 162, tag_id: 42},
-  {game_id: 162, tag_id: 43},
-
-  {game_id: 163, tag_id: 9},
-  {game_id: 163, tag_id: 12},
-  {game_id: 163, tag_id: 15},
-  {game_id: 163, tag_id: 17},
-  {game_id: 163, tag_id: 18},
-  {game_id: 163, tag_id: 21},
-  {game_id: 163, tag_id: 34},
-  {game_id: 163, tag_id: 41},
-  {game_id: 163, tag_id: 43},
-
-  {game_id: 164, tag_id: 9},
-  {game_id: 164, tag_id: 12},
-  {game_id: 164, tag_id: 14},
-  {game_id: 164, tag_id: 17},
-  {game_id: 164, tag_id: 18},
-  {game_id: 164, tag_id: 24},
-  {game_id: 164, tag_id: 30},
-  {game_id: 164, tag_id: 37},
-  {game_id: 164, tag_id: 41},
-  {game_id: 164, tag_id: 43},
-
-  {game_id: 165, tag_id: 10},
-  {game_id: 165, tag_id: 11},
-  {game_id: 165, tag_id: 14},
-  {game_id: 165, tag_id: 16},
-  {game_id: 165, tag_id: 18},
-  {game_id: 165, tag_id: 28},
-  {game_id: 165, tag_id: 33},
-  {game_id: 165, tag_id: 39},
-  {game_id: 165, tag_id: 42},
-  {game_id: 165, tag_id: 44},
-
-  {game_id: 166, tag_id: 9},
-  {game_id: 166, tag_id: 12},
-  {game_id: 166, tag_id: 14},
-  {game_id: 166, tag_id: 16},
-  {game_id: 166, tag_id: 17},
-  {game_id: 166, tag_id: 18},
-  {game_id: 166, tag_id: 26},
-  {game_id: 166, tag_id: 41},
-  {game_id: 166, tag_id: 44},
-
-  {game_id: 167, tag_id: 9},
-  {game_id: 167, tag_id: 11},
-  {game_id: 167, tag_id: 14},
-  {game_id: 167, tag_id: 16},
-  {game_id: 167, tag_id: 18},
-  {game_id: 167, tag_id: 27},
-  {game_id: 167, tag_id: 34},
-  {game_id: 167, tag_id: 37},
-  {game_id: 167, tag_id: 40},
-  {game_id: 167, tag_id: 44},
-
-  {game_id: 168, tag_id: 10},
-  {game_id: 168, tag_id: 13},
-  {game_id: 168, tag_id: 14},
-  {game_id: 168, tag_id: 17},
-  {game_id: 168, tag_id: 18},
-  {game_id: 168, tag_id: 22},
-  {game_id: 168, tag_id: 24},
-  {game_id: 168, tag_id: 26},
-  {game_id: 168, tag_id: 30},
-  {game_id: 168, tag_id: 37},
-  {game_id: 168, tag_id: 42},
-  {game_id: 168, tag_id: 44},
-
-  {game_id: 169, tag_id: 10},
-  {game_id: 169, tag_id: 13},
-  {game_id: 169, tag_id: 14},
-  {game_id: 169, tag_id: 16},
-  {game_id: 169, tag_id: 18},
-  {game_id: 169, tag_id: 20},
-  {game_id: 169, tag_id: 26},
-  {game_id: 169, tag_id: 27},
-  {game_id: 169, tag_id: 29},
-  {game_id: 169, tag_id: 23},
-  {game_id: 169, tag_id: 37},
-  {game_id: 169, tag_id: 41},
-  {game_id: 169, tag_id: 44},
-
-  {game_id: 170, tag_id: 9},
-  {game_id: 170, tag_id: 13},
-  {game_id: 170, tag_id: 14},
-  {game_id: 170, tag_id: 17},
-  {game_id: 170, tag_id: 18},
-  {game_id: 170, tag_id: 19},
-  {game_id: 170, tag_id: 20},
-  {game_id: 170, tag_id: 23},
-  {game_id: 170, tag_id: 26},
-  {game_id: 170, tag_id: 24},
-  {game_id: 170, tag_id: 40},
-  {game_id: 170, tag_id: 44},
-
-  {game_id: 171, tag_id: 10},
-  {game_id: 171, tag_id: 13},
-  {game_id: 171, tag_id: 14},
-  {game_id: 171, tag_id: 17},
-  {game_id: 171, tag_id: 18},
-  {game_id: 171, tag_id: 23},
-  {game_id: 171, tag_id: 30},
-  {game_id: 171, tag_id: 37},
-  {game_id: 171, tag_id: 40},
-  {game_id: 171, tag_id: 44},
-
-  {game_id: 172, tag_id: 9},
-  {game_id: 172, tag_id: 12},
-  {game_id: 172, tag_id: 14},
-  {game_id: 172, tag_id: 16},
-  {game_id: 172, tag_id: 17},
-  {game_id: 172, tag_id: 18},
-  {game_id: 172, tag_id: 20},
-  {game_id: 172, tag_id: 23},
-  {game_id: 172, tag_id: 24},
-  {game_id: 172, tag_id: 40},
-  {game_id: 172, tag_id: 44},
-
-  {game_id: 173, tag_id: 9},
-  {game_id: 173, tag_id: 13},
-  {game_id: 173, tag_id: 14},
-  {game_id: 173, tag_id: 16},
-  {game_id: 173, tag_id: 17},
-  {game_id: 173, tag_id: 18},
-  {game_id: 173, tag_id: 19},
-  {game_id: 173, tag_id: 20},
-  {game_id: 173, tag_id: 23},
-  {game_id: 173, tag_id: 24},
-  {game_id: 173, tag_id: 26},
-  {game_id: 173, tag_id: 29},
-  {game_id: 173, tag_id: 30},
-  {game_id: 173, tag_id: 41},
-  {game_id: 173, tag_id: 44},
-
-  {game_id: 174, tag_id: 10},
-  {game_id: 174, tag_id: 13},
-  {game_id: 174, tag_id: 14},
-  {game_id: 174, tag_id: 17},
-  {game_id: 174, tag_id: 18},
-  {game_id: 174, tag_id: 19},
-  {game_id: 174, tag_id: 22},
-  {game_id: 174, tag_id: 24},
-  {game_id: 174, tag_id: 30},
-  {game_id: 174, tag_id: 39},
-  {game_id: 174, tag_id: 42},
-  {game_id: 174, tag_id: 44},
-
-  {game_id: 175, tag_id: 9},
-  {game_id: 175, tag_id: 12},
-  {game_id: 175, tag_id: 14},
-  {game_id: 175, tag_id: 17},
-  {game_id: 175, tag_id: 18},
-  {game_id: 175, tag_id: 37},
-  {game_id: 175, tag_id: 40},
-  {game_id: 175, tag_id: 44},
-
-  {game_id: 176, tag_id: 9},
-  {game_id: 176, tag_id: 12},
-  {game_id: 176, tag_id: 15},
-  {game_id: 176, tag_id: 17},
-  {game_id: 176, tag_id: 18},
-  {game_id: 176, tag_id: 19},
-  {game_id: 176, tag_id: 20},
-  {game_id: 176, tag_id: 22},
-  {game_id: 176, tag_id: 24},
-  {game_id: 176, tag_id: 39},
-  {game_id: 176, tag_id: 42},
-  {game_id: 176, tag_id: 44},
-
-  {game_id: 177, tag_id: 10},
-  {game_id: 177, tag_id: 12},
-  {game_id: 177, tag_id: 14},
-  {game_id: 177, tag_id: 16},
-  {game_id: 177, tag_id: 17},
-  {game_id: 177, tag_id: 18},
-  {game_id: 177, tag_id: 19},
-  {game_id: 177, tag_id: 20},
-  {game_id: 177, tag_id: 25},
-  {game_id: 177, tag_id: 26},
-  {game_id: 177, tag_id: 39},
-  {game_id: 177, tag_id: 42},
-  {game_id: 177, tag_id: 44},
-
-  {game_id: 178, tag_id: 9},
-  {game_id: 178, tag_id: 13},
-  {game_id: 178, tag_id: 14},
-  {game_id: 178, tag_id: 17},
-  {game_id: 178, tag_id: 18},
-  {game_id: 178, tag_id: 23},
-  {game_id: 178, tag_id: 26},
-  {game_id: 178, tag_id: 37},
-  {game_id: 178, tag_id: 40},
-  {game_id: 178, tag_id: 44},
-
-  {game_id: 179, tag_id: 10},
-  {game_id: 179, tag_id: 12},
-  {game_id: 179, tag_id: 14},
-  {game_id: 179, tag_id: 17},
-  {game_id: 179, tag_id: 18},
-  {game_id: 179, tag_id: 23},
-  {game_id: 179, tag_id: 26},
-  {game_id: 179, tag_id: 37},
-  {game_id: 179, tag_id: 42},
-  {game_id: 179, tag_id: 44},
-
-  {game_id: 180, tag_id: 10},
-  {game_id: 180, tag_id: 13},
-  {game_id: 180, tag_id: 14},
-  {game_id: 180, tag_id: 16},
-  {game_id: 180, tag_id: 17},
-  {game_id: 180, tag_id: 18},
-  {game_id: 180, tag_id: 19},
-  {game_id: 180, tag_id: 20},
-  {game_id: 180, tag_id: 21},
-  {game_id: 180, tag_id: 22},
-  {game_id: 180, tag_id: 24},
-  {game_id: 180, tag_id: 30},
-  {game_id: 180, tag_id: 39},
-  {game_id: 180, tag_id: 42},
-  {game_id: 180, tag_id: 44},
-
-  {game_id: 181, tag_id: 10},
-  {game_id: 181, tag_id: 12},
-  {game_id: 181, tag_id: 15},
-  {game_id: 181, tag_id: 17},
-  {game_id: 181, tag_id: 18},
-  {game_id: 181, tag_id: 19},
-  {game_id: 181, tag_id: 20},
-  {game_id: 181, tag_id: 21},
-  {game_id: 181, tag_id: 22},
-  {game_id: 181, tag_id: 24},
-  {game_id: 181, tag_id: 25},
-  {game_id: 181, tag_id: 31},
-  {game_id: 181, tag_id: 32},
-  {game_id: 181, tag_id: 30},
-  {game_id: 181, tag_id: 39},
-  {game_id: 181, tag_id: 42},
-  {game_id: 181, tag_id: 44},
-
-  {game_id: 182, tag_id: 9},
-  {game_id: 182, tag_id: 11},
-  {game_id: 182, tag_id: 14},
-  {game_id: 182, tag_id: 16},
-  {game_id: 182, tag_id: 17},
-  {game_id: 182, tag_id: 18},
-  {game_id: 182, tag_id: 19},
-  {game_id: 182, tag_id: 20},
-  {game_id: 182, tag_id: 27},
-  {game_id: 182, tag_id: 35},
-  {game_id: 182, tag_id: 40},
-  {game_id: 182, tag_id: 44},
-
-  {game_id: 183, tag_id: 9},
-  {game_id: 183, tag_id: 12},
-  {game_id: 183, tag_id: 14},
-  {game_id: 183, tag_id: 16},
-  {game_id: 183, tag_id: 17},
-  {game_id: 183, tag_id: 18},
-  {game_id: 183, tag_id: 19},
-  {game_id: 183, tag_id: 20},
-  {game_id: 183, tag_id: 35},
-  {game_id: 183, tag_id: 40},
-  {game_id: 183, tag_id: 44},
-
-  {game_id: 184, tag_id: 10},
-  {game_id: 184, tag_id: 12},
-  {game_id: 184, tag_id: 15},
-  {game_id: 184, tag_id: 16},
-  {game_id: 184, tag_id: 17},
-  {game_id: 184, tag_id: 19},
-  {game_id: 184, tag_id: 24},
-  {game_id: 184, tag_id: 25},
-  {game_id: 184, tag_id: 26},
-  {game_id: 184, tag_id: 28},
-  {game_id: 184, tag_id: 29},
-  {game_id: 184, tag_id: 42},
-  {game_id: 184, tag_id: 43},
-
-  {game_id: 185, tag_id: 9},
-  {game_id: 185, tag_id: 12},
-  {game_id: 185, tag_id: 14},
-  {game_id: 185, tag_id: 16},
-  {game_id: 185, tag_id: 17},
-  {game_id: 185, tag_id: 18},
-  {game_id: 185, tag_id: 19},
-  {game_id: 185, tag_id: 20},
-  {game_id: 185, tag_id: 35},
-  {game_id: 185, tag_id: 41},
-  {game_id: 185, tag_id: 44},
-
-  {game_id: 186, tag_id: 9},
-  {game_id: 186, tag_id: 13},
-  {game_id: 186, tag_id: 15},
-  {game_id: 186, tag_id: 17},
-  {game_id: 186, tag_id: 18},
-  {game_id: 186, tag_id: 19},
-  {game_id: 186, tag_id: 21},
-  {game_id: 186, tag_id: 22},
-  {game_id: 186, tag_id: 24},
-  {game_id: 186, tag_id: 30},
-  {game_id: 186, tag_id: 37},
-  {game_id: 186, tag_id: 41},
-  {game_id: 186, tag_id: 43},
-
-  {game_id: 187, tag_id: 9},
-  {game_id: 187, tag_id: 12},
-  {game_id: 187, tag_id: 15},
-  {game_id: 187, tag_id: 17},
-  {game_id: 187, tag_id: 21},
-  {game_id: 187, tag_id: 22},
-  {game_id: 187, tag_id: 24},
-  {game_id: 187, tag_id: 30},
-  {game_id: 187, tag_id: 39},
-  {game_id: 187, tag_id: 40},
-  {game_id: 187, tag_id: 44},
-
-  {game_id: 188, tag_id: 10},
-  {game_id: 188, tag_id: 12},
-  {game_id: 188, tag_id: 14},
-  {game_id: 188, tag_id: 16},
-  {game_id: 188, tag_id: 17},
-  {game_id: 188, tag_id: 18},
-  {game_id: 188, tag_id: 19},
-  {game_id: 188, tag_id: 20},
-  {game_id: 188, tag_id: 23},
-  {game_id: 188, tag_id: 24},
-  {game_id: 188, tag_id: 28},
-  {game_id: 188, tag_id: 29},
-  {game_id: 188, tag_id: 42},
-  {game_id: 188, tag_id: 44},
-
-  {game_id: 189, tag_id: 9},
-  {game_id: 189, tag_id: 12},
-  {game_id: 189, tag_id: 14},
-  {game_id: 189, tag_id: 16},
-  {game_id: 189, tag_id: 17},
-  {game_id: 189, tag_id: 18},
-  {game_id: 189, tag_id: 20},
-  {game_id: 189, tag_id: 22},
-  {game_id: 189, tag_id: 24},
-  {game_id: 189, tag_id: 27},
-  {game_id: 189, tag_id: 29},
-  {game_id: 189, tag_id: 41},
-  {game_id: 189, tag_id: 44},
-
-  {game_id: 190, tag_id: 10},
-  {game_id: 190, tag_id: 12},
-  {game_id: 190, tag_id: 15},
-  {game_id: 190, tag_id: 17},
-  {game_id: 190, tag_id: 44},
-  {game_id: 190, tag_id: 19},
-  {game_id: 190, tag_id: 22},
-  {game_id: 190, tag_id: 24},
-  {game_id: 190, tag_id: 31},
-  {game_id: 190, tag_id: 39},
-  {game_id: 190, tag_id: 41},
-  {game_id: 190, tag_id: 44},
-
-  {game_id: 191, tag_id: 9},
-  {game_id: 191, tag_id: 12},
-  {game_id: 191, tag_id: 15},
-  {game_id: 191, tag_id: 17},
-  {game_id: 191, tag_id: 19},
-  {game_id: 191, tag_id: 22},
-  {game_id: 191, tag_id: 24},
-  {game_id: 191, tag_id: 31},
-  {game_id: 191, tag_id: 39},
-  {game_id: 191, tag_id: 41},
-  {game_id: 191, tag_id: 44},
-
-  {game_id: 192, tag_id: 9},
-  {game_id: 192, tag_id: 11},
-  {game_id: 192, tag_id: 14},
-  {game_id: 192, tag_id: 16},
-  {game_id: 192, tag_id: 17},
-  {game_id: 192, tag_id: 19},
-  {game_id: 192, tag_id: 36},
-  {game_id: 192, tag_id: 40},
-  {game_id: 192, tag_id: 44},
-
-  {game_id: 194, tag_id: 10},
-  {game_id: 194, tag_id: 11},
-  {game_id: 194, tag_id: 14},
-  {game_id: 194, tag_id: 16},
-  {game_id: 194, tag_id: 17},
-  {game_id: 194, tag_id: 19},
-  {game_id: 194, tag_id: 23},
-  {game_id: 194, tag_id: 35},
-  {game_id: 194, tag_id: 40},
-  {game_id: 194, tag_id: 44},
-
-  {game_id: 195, tag_id: 9},
-  {game_id: 195, tag_id: 13},
-  {game_id: 195, tag_id: 15},
-  {game_id: 195, tag_id: 17},
-  {game_id: 195, tag_id: 18},
-  {game_id: 195, tag_id: 19},
-  {game_id: 195, tag_id: 22},
-  {game_id: 195, tag_id: 24},
-  {game_id: 195, tag_id: 30},
-  {game_id: 195, tag_id: 37},
-  {game_id: 195, tag_id: 41},
-  {game_id: 195, tag_id: 43},
-
-  {game_id: 196, tag_id: 9},
-  {game_id: 196, tag_id: 11},
-  {game_id: 196, tag_id: 15},
-  {game_id: 196, tag_id: 17},
-  {game_id: 196, tag_id: 19},
-  {game_id: 196, tag_id: 22},
-  {game_id: 196, tag_id: 24},
-  {game_id: 196, tag_id: 31},
-  {game_id: 196, tag_id: 32},
-  {game_id: 196, tag_id: 34},
-  {game_id: 196, tag_id: 40},
-  {game_id: 196, tag_id: 44},
-
-  {game_id: 197, tag_id: 10},
-  {game_id: 197, tag_id: 12},
-  {game_id: 197, tag_id: 14},
-  {game_id: 197, tag_id: 16},
-  {game_id: 197, tag_id: 17},
-  {game_id: 197, tag_id: 18},
-  {game_id: 197, tag_id: 20},
-  {game_id: 197, tag_id: 25},
-  {game_id: 197, tag_id: 26},
-  {game_id: 197, tag_id: 29},
-  {game_id: 197, tag_id: 30},
-  {game_id: 197, tag_id: 42},
-  {game_id: 197, tag_id: 44},
-
-  {game_id: 198, tag_id: 9},
-  {game_id: 198, tag_id: 12},
-  {game_id: 198, tag_id: 15},
-  {game_id: 198, tag_id: 17},
-  {game_id: 198, tag_id: 20},
-  {game_id: 198, tag_id: 23},
-  {game_id: 198, tag_id: 24},
-  {game_id: 198, tag_id: 40},
-  {game_id: 198, tag_id: 43},
-
-])
-
+game = Game.find_by(id: 11)
+game.update(video_url: "https://youtube.com/embed/QTM1PP5d6ss")
+game = Game.find_by(id: 13)
+game.update(video_url: "https://youtube.com/embed/rMxEpPCSH5A")
+game = Game.find_by(id: 14)
+game.update(video_url: "https://youtube.com/embed/CWl0hOeJvzA")
+game = Game.find_by(id: 15)
+game.update(video_url: "https://youtube.com/embed/-qVVO69Cgcs")
+game = Game.find_by(id: 16)
+game.update(video_url: "https://youtube.com/embed/40MRASC-Ndw")
+game = Game.find_by(id: 17)
+game.update(video_url: "https://youtube.com/embed/XmyF8IjfSUI")
+game = Game.find_by(id: 18)
+game.update(video_url: "https://youtube.com/embed/p_dgvgpC8Nw")
+game = Game.find_by(id: 19)
+game.update(video_url: "https://youtube.com/embed/MWxlbnI9mpU")
+game = Game.find_by(id: 20)
+game.update(video_url: "https://youtube.com/embed/unn0rgsa5UU")
+game = Game.find_by(id: 21)
+game.update(video_url: "https://youtube.com/embed/zw47_q9wbBE")
+game = Game.find_by(id: 22)
+game.update(video_url: "https://youtube.com/embed/-tYWIOI0SQI")
+game = Game.find_by(id: 23)
+game.update(video_url: "https://youtube.com/embed/tCI396HyhbQ")
+game = Game.find_by(id: 24)
+game.update(video_url: "https://youtube.com/embed/GHhY-SUYOms")
+game = Game.find_by(id: 25)
+game.update(video_url: "https://youtube.com/embed/QvYR4GVXS7E")
+game = Game.find_by(id: 26)
+game.update(video_url: "https://youtube.com/embed/op4G1--kb-g")
+game = Game.find_by(id: 27)
+game.update(video_url: "https://youtube.com/embed/i7h7AleSCF4")
+game = Game.find_by(id: 28)
+game.update(video_url: "https://youtube.com/embed/61DZC-60x20")
+game = Game.find_by(id: 29)
+game.update(video_url: "https://youtube.com/embed/q4GdJVvdxss")
+game = Game.find_by(id: 30)
+game.update(video_url: "https://youtube.com/embed/rxrbXP546OU")
+game = Game.find_by(id: 31)
+game.update(video_url: "https://youtube.com/embed/K6Y4wC063NE")
+game = Game.find_by(id: 32)
+game.update(video_url: "https://youtube.com/embed/BnpmjTMI12c")
+game = Game.find_by(id: 33)
+game.update(video_url: "https://youtube.com/embed/NXYqvSZGCEE")
+game = Game.find_by(id: 34)
+game.update(video_url: "https://youtube.com/embed/WrgC-SqEF90")
+game = Game.find_by(id: 35)
+game.update(video_url: "https://youtube.com/embed/5xUDkHudgbg")
+game = Game.find_by(id: 36)
+game.update(video_url: "https://youtube.com/embed/0-iFTTkVSDw")
+game = Game.find_by(id: 37)
+game.update(video_url: "https://youtube.com/embed/YmWLgCzL5LY")
+game = Game.find_by(id: 38)
+game.update(video_url: "https://youtube.com/embed/ECSwEgzeEug")
+game = Game.find_by(id: 39)
+game.update(video_url: "https://youtube.com/embed/3Sc-6GOrGNw")
+game = Game.find_by(id: 40)
+game.update(video_url: "https://youtube.com/embed/lvbFx5xb1Uk")
+game = Game.find_by(id: 41)
+game.update(video_url: "https://youtube.com/embed/9SZUtyYSOjQ")
+game = Game.find_by(id: 42)
+game.update(video_url: "https://youtube.com/embed/LbqNRDPd5_k")
+game = Game.find_by(id: 43)
+game.update(video_url: "https://youtube.com/embed/ncC9jrCqgG8")
+game = Game.find_by(id: 44)
+game.update(video_url: "https://youtube.com/embed/2C9LxNlzeUM")
+game = Game.find_by(id: 45)
+game.update(video_url: "https://youtube.com/embed/3rIjcRK_BNU")
+game = Game.find_by(id: 46)
+game.update(video_url: "https://youtube.com/embed/xi7Wzl3YHjU")
+game = Game.find_by(id: 47)
+game.update(video_url: "https://youtube.com/embed/XBbWnkksW4M")
+game = Game.find_by(id: 48)
+game.update(video_url: "https://youtube.com/embed/wK6vDJ_nkz0")
+game = Game.find_by(id: 50)
+game.update(video_url: "https://youtube.com/embed/2ctVVGdHnqI")
+game = Game.find_by(id: 51)
+game.update(video_url: "https://youtube.com/embed/9QkLwj66bM0")
+game = Game.find_by(id: 52)
+game.update(video_url: "https://youtube.com/embed/2Ba34RcTmt0")
+game = Game.find_by(id: 53)
+game.update(video_url: "https://youtube.com/embed/sb81f-ejNSI")
+game = Game.find_by(id: 54)
+game.update(video_url: "https://youtube.com/embed/Dw_oH5oiUSE")
+game = Game.find_by(id: 55)
+game.update(video_url: "https://youtube.com/embed/lpzIMcBgvCk")
+game = Game.find_by(id: 56)
+game.update(video_url: "https://youtube.com/embed/BcpbnNYh4Fg")
+game = Game.find_by(id: 57)
+game.update(video_url: "https://youtube.com/embed/wGQHQc_3ycE")
+game = Game.find_by(id: 58)
+game.update(video_url: "https://youtube.com/embed/kB1663FTpzU")
+game = Game.find_by(id: 59)
+game.update(video_url: "https://youtube.com/embed/cklw-Yu3moE")
+game = Game.find_by(id: 60)
+game.update(video_url: "https://youtube.com/embed/FqBj2IGg6Uw")
+game = Game.find_by(id: 61)
+game.update(video_url: "https://youtube.com/embed/3tDrxOASUog")
+game = Game.find_by(id: 62)
+game.update(video_url: "https://youtube.com/embed/Xjpao-nD5YU")
+game = Game.find_by(id: 63)
+game.update(video_url: "https://youtube.com/embed/TjKQ3fbB27Y")
+game = Game.find_by(id: 64)
+game.update(video_url: "https://youtube.com/embed/1Hojv0m3TqA")
+game = Game.find_by(id: 65)
+game.update(video_url: "https://youtube.com/embed/KNpgLOCYHAE")
+game = Game.find_by(id: 66)
+game.update(video_url: "https://youtube.com/embed/ot7uXNQskhs")
+game = Game.find_by(id: 67)
+game.update(video_url: "https://youtube.com/embed/vJ4SVSm1ARQ")
+game = Game.find_by(id: 68)
+game.update(video_url: "https://youtube.com/embed/9jBbq6c9EEQ")
+game = Game.find_by(id: 69)
+game.update(video_url: "https://youtube.com/embed/MVWnmzBPj5c")
+game = Game.find_by(id: 70)
+game.update(video_url: "https://youtube.com/embed/PT7MLVgc1I0")
+game = Game.find_by(id: 71)
+game.update(video_url: "https://youtube.com/embed/Md-uL6opUFY")
+game = Game.find_by(id: 72)
+game.update(video_url: "https://youtube.com/embed/h3hvpxSe4h8")
+game = Game.find_by(id: 73)
+game.update(video_url: "https://youtube.com/embed/7jvRoNPBHjk")
+game = Game.find_by(id: 74)
+game.update(video_url: "https://youtube.com/embed/RJy2eH8HGhA")
+game = Game.find_by(id: 75)
+game.update(video_url: "https://youtube.com/embed/S0kKF5f8nS0")
+game = Game.find_by(id: 76)
+game.update(video_url: "https://youtube.com/embed/m25MYq9LzKM")
+game = Game.find_by(id: 77)
+game.update(video_url: "https://youtube.com/embed/02G3GUt6Nzo")
+game = Game.find_by(id: 78)
+game.update(video_url: "https://youtube.com/embed/uKLb8D36YKk")
+game = Game.find_by(id: 79)
+game.update(video_url: "https://youtube.com/embed/AjJWzJC8Kfk")
+game = Game.find_by(id: 80)
+game.update(video_url: "https://youtube.com/embed/ylBYfndq8fU")
+game = Game.find_by(id: 81)
+game.update(video_url: "https://youtube.com/embed/9YtiRsJWx6w")
+game = Game.find_by(id: 82)
+game.update(video_url: "https://youtube.com/embed/WV_Tqi3e0eI")
+game = Game.find_by(id: 83)
+game.update(video_url: "https://youtube.com/embed/UVPJKter8w4")
+game = Game.find_by(id: 84)
+game.update(video_url: "https://youtube.com/embed/qopIFtn0vBo")
+game = Game.find_by(id: 85)
+game.update(video_url: "https://youtube.com/embed/8a-EObAhYrg")
+game = Game.find_by(id: 86)
+game.update(video_url: "https://youtube.com/embed/exg_OxsaHyY")
+game = Game.find_by(id: 87)
+game.update(video_url: "https://youtube.com/embed/YznXuKwJtMg")
+game = Game.find_by(id: 89)
+game.update(video_url: "https://youtube.com/embed/-nzBjXXcn7o")
+game = Game.find_by(id: 90)
+game.update(video_url: "https://youtube.com/embed/Vu9QFBWb7WQ")
+game = Game.find_by(id: 92)
+game.update(video_url: "https://youtube.com/embed/1aBb0M8HRCQ")
+game = Game.find_by(id: 93)
+game.update(video_url: "https://youtube.com/embed/hnC_AMrEu88")
+game = Game.find_by(id: 94)
+game.update(video_url: "https://youtube.com/embed/Whr7u_B6Jn0")
+game = Game.find_by(id: 95)
+game.update(video_url: "https://youtube.com/embed/Rg7MpZedmpo")
+game = Game.find_by(id: 96)
+game.update(video_url: "https://youtube.com/embed/j_sitLtr2AA")
+game = Game.find_by(id: 97)
+game.update(video_url: "https://youtube.com/embed/zPPbdSK_lrY")
+game = Game.find_by(id: 98)
+game.update(video_url: "https://youtube.com/embed/fACQOmQU3wc")
+game = Game.find_by(id: 99)
+game.update(video_url: "https://youtube.com/embed/idjY1N8TKWE")
+game = Game.find_by(id: 100)
+game.update(video_url: "https://youtube.com/embed/-Ki-LZ5imwU")
+game = Game.find_by(id: 101)
+game.update(video_url: "https://youtube.com/embed/oa0ERPuBCe4")
+game = Game.find_by(id: 102)
+game.update(video_url: "https://youtube.com/embed/n2wvG5HBwx4")
+game = Game.find_by(id: 103)
+game.update(video_url: "https://youtube.com/embed/i0QydMRocjg")
+game = Game.find_by(id: 119)
+game.update(video_url: "https://youtube.com/embed/Hlc6sE5jJHQ")
+game = Game.find_by(id: 120)
+game.update(video_url: "https://youtube.com/embed/XhPrcdjhPdQ")
+game = Game.find_by(id: 121)
+game.update(video_url: "https://youtube.com/embed/Eeti22Z5lqw")
+game = Game.find_by(id: 122)
+game.update(video_url: "https://youtube.com/embed/53L6P1XB_GU")
+game = Game.find_by(id: 123)
+game.update(video_url: "https://youtube.com/embed/mRc2MHS6owQ")
+game = Game.find_by(id: 125)
+game.update(video_url: "https://youtube.com/embed/NV84WqoWdJc")
+game = Game.find_by(id: 126)
+game.update(video_url: "https://youtube.com/embed/B_ULE7TezoE")
+game = Game.find_by(id: 127)
+game.update(video_url: "https://youtube.com/embed/qBhiy6gy97Y")
+game = Game.find_by(id: 128)
+game.update(video_url: "https://youtube.com/embed/cVhYSyVbGBs")
+game = Game.find_by(id: 129)
+game.update(video_url: "https://youtube.com/embed/h-mXN3akTPU")
+game = Game.find_by(id: 130)
+game.update(video_url: "https://youtube.com/embed/vvEQad8kLQQ")
