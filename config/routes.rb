@@ -23,5 +23,7 @@ Rails.application.routes.draw do
 
     get "/questionnaire" => "questionnaires#index"
     post "/questionnaire" => "questionnaires#create"
+
+    get "/*path" => proc { [200, {}, [ActionView::Base.new.render(file: 'public/index.html')]] }
   end
 end
