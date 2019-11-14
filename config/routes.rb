@@ -28,5 +28,6 @@ Rails.application.routes.draw do
 
 
   end
+  # heroku path
   get "/*path" => proc { [200, {}, [ActionView::Base.new.render(file: 'public/index.html')]] }
 end
