@@ -2715,23 +2715,23 @@ GameTag.create!([
   {game_id: 237, tag_id: 44}
 ])
 
-User.create!([
-  {name: "Skelliboi", email: "j@gmail.com", password_digest: "$2a$12$opwvuswa9GzCj0oqX0yZlukTzS0evrwI.XeLxTpSqkSoTd2d8tJZy"},
-  {name: "Skelliboi", email: "justin@gmail.com", password_digest: "$2a$12$MVkPUMuFZKkAJm/or8kkIejYjAgMwbifnx7zeA8VlrQJyHrtvIEvu"},
-  {name: "Bob", email: "Bob@gmail.com", password_digest: "$2a$12$Rhbq1qLpT8jGoLQE9/2Gg.eja7GPNW21x60UnJ0pUOihL57NonI4S"},
-  {name: "Justin", email: "jjj@gmail.com", password_digest: "$2a$12$QptmuGSYc7BfSUVFeiYJ4eg2vd2y0Pml9/kxro6TnyR5c1ANBwFSi"},
-  {name: "Justin", email: "crab@gmail.com", password_digest: "$2a$12$UeNFSfEFRgOVlfm75acfH.txTkaKsV1/zplWXy0Ki/YfJZAkJj3Ai"}
-])
+# User.create!([
+#   {name: "Skelliboi", email: "j@gmail.com", password_digest: "$2a$12$opwvuswa9GzCj0oqX0yZlukTzS0evrwI.XeLxTpSqkSoTd2d8tJZy"},
+#   {name: "Skelliboi", email: "justin@gmail.com", password_digest: "$2a$12$MVkPUMuFZKkAJm/or8kkIejYjAgMwbifnx7zeA8VlrQJyHrtvIEvu"},
+#   {name: "Bob", email: "Bob@gmail.com", password_digest: "$2a$12$Rhbq1qLpT8jGoLQE9/2Gg.eja7GPNW21x60UnJ0pUOihL57NonI4S"},
+#   {name: "Justin", email: "jjj@gmail.com", password_digest: "$2a$12$QptmuGSYc7BfSUVFeiYJ4eg2vd2y0Pml9/kxro6TnyR5c1ANBwFSi"},
+#   {name: "Justin", email: "crab@gmail.com", password_digest: "$2a$12$UeNFSfEFRgOVlfm75acfH.txTkaKsV1/zplWXy0Ki/YfJZAkJj3Ai"}
+# ])
 
-Favorite.create!([
-  {user_id: 18, game_id: 14},
-  {user_id: 18, game_id: 13},
-  {user_id: 18, game_id: 18},
-  {user_id: 21, game_id: 13},
-  {user_id: 21, game_id: 14},
-  {user_id: 21, game_id: 23},
-  {user_id: 21, game_id: 73},
-  {user_id: 23, game_id: 12},
-  {user_id: 23, game_id: 13},
-  {user_id: 23, game_id: 227}
-])
+# Favorite.create!([
+#   {user_id: 18, game_id: 14},
+#   {user_id: 18, game_id: 13},
+#   {user_id: 18, game_id: 18},
+#   {user_id: 21, game_id: 13},
+#   {user_id: 21, game_id: 14},
+#   {user_id: 21, game_id: 23},
+#   {user_id: 21, game_id: 73},
+#   {user_id: 23, game_id: 12},
+#   {user_id: 23, game_id: 13},
+#   {user_id: 23, game_id: 227}
+# ])
